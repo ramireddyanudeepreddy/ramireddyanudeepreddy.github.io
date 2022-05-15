@@ -1,0 +1,31 @@
+#nav-bar {
+    margin: 0px;
+    height: 70px;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(31,9,121,1) 60%, rgba(0,212,255,1) 100%);
+    color : white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    white-space: nowrap;
+}
+a{
+    color: white;
+}
+
+#logo {
+    padding: 20px 50px;
+    
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    margin-right: 20px;
+}
+
+ul > li{
+    margin: 20px;
+    list-style: none;
+    font-size: 1.2em;
+}
